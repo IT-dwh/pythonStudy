@@ -1,0 +1,40 @@
+设置sbulime, 更快编辑python
+1、python语法检查, 风格检查
+2、python代码补全
+
+
+
+0、首先安装一个插件管理器Package Control, 这个一个插件管理器, 可以帮助下载，升级，卸载插件
+  点击Tools下的Instatll Package Control 即可！
+  安装好以后，可以使用Tools下的CommandPalette,启动插件管理器; 也可以用快捷键Ctrl+Shift+P
+  启动插件管理器后,就可以查找插件,并下载插件
+
+1、安装python的代码分析工具 flake8
+	1.1、工具作用： a、分析语法错误; b、分析代码结构,例如变量是否定义;  c、分析不符合规范和美观的代码
+	1.2、工具解释：只是一个分析python代码的工具, 直接安装即可！ 此时还没有和sublime产生交集，只是下载了一个工具而已，后边还要再下载别的插件来将flake8集成到sublime中！
+	1.3、在windows的命令行，使用命令pip install flake8 安装即可
+2、安装sublime的插件：SublimeLinter
+	2.1、工具解释：这是sublime的一个代码框架， 只是一个框架，框架上可以有各类的代码检查工具，可以检查java，可以检查python，现在只是先将这个框架插件下载下来，此时还没有将代码检查工具和他合并呢！有点类似于java 的多态， SublimeLinter是一个父类，而flake8是真正实现具体内容的子类！而此时只是将父类定义出来！
+	2.2、工具作用：只是一个框架，可接受多种具体策略！ 
+	2.3、使用Ctrl+Shift+P ,打开插件管理器, 输入"Install Package"选择"安装"功能, 搜索插件SublimeLinter, 然后安装插件
+3、安装flake8和SublimeLinter的连接插件：SublimeLinter-flake8； 类比java，第1步和第2步都是在定义类，这一步就是在声明变量了SublimeLinter sl = new flake8;
+	3.1、工具解释：就是将falke和SublimeLinter联合起来，
+	3.2、使用Ctrl+Shift+P, 打开插件管理器, 输入"install package"选择"安装"功能, 搜索插件SublimeLinter-flake8, 然后安装插件
+4、前面3步安装了python的语法分析工具，可以去写个python代码试验一下：
+	4.1、如果代码有错误，会用一个红框框起来错误！并且在行号上有个红色小点！
+5、安装python代码自动补全功能插件：Anaconda
+	5.1、工具作用：a、代码自动补全; b、提示python类，方法和函数; C、检查模块导入是否正确;  D、可以自动格式化代码
+	5.2、使用Ctrl+Shift+P ,打开插件管理器, 输入"Install Package"选择"安装"功能, 搜索插件Anaconda, 然后安装插件
+	5.3、插件下载后还需要一些配置：
+		进入Preferences菜单--> Pakage Setting（这是为下载的插件做配置的地方）--> 选择Anaconda --> Setting-user  插入以下内容：
+		{
+		"anaconda_linting": false,
+		"pep8": false
+		}
+		上述的配置是因为这个插件和flake8插件的功能相互冲突，这里最好使用flake8的配置就可以了
+	5.4、配置完重启sublime
+	5.5、可以在python文件中使用一下代码提示功能了！
+	5.6、Anaconda还有很多功能，代码文件中右键-->选择Anaconda-->可以看到好多功能
+6、配置git插件(首先确保你的电脑已经安装了git)：gitGutter
+	6.1、工具解释：没啥好解释的，就是继承了git功能
+	6.2、老办法安装
