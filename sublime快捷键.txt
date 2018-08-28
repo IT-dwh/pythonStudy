@@ -1,0 +1,25 @@
+Ctrl+D 选中一个文本，按下快捷键，会选中下一个相同词！ 按几次选中几次
+Alt+F3 选中一个文本，然后选中所有的相同文本， 相当于按多次的Ctrl+D, 选中后可编辑
+Ctrl+Shift+L 给选中的行的行尾进行编辑
+Ctrl+Enter 快速切换到下一行，即使光标不在行尾
+Ctrl+Shift+D 复制光标所在行, 并插入到下一行， 类似于intelliJ中的Ctrl+D
+Ctrl+Shift+K 删除整行，相当于intelliJ中的Ctrl+Y
+Ctrl+X 删除当前行
+Ctrl+Z 撤销，
+Ctrl+Y 回复撤销
+Ctrl+G 跳转到指定行，类似于vim的 ：setnum 后 50gg
+Ctrl+W 关闭当前打开的文件
+Ctrl+Shift+W 关闭打开的所有文件 等同于eclipse
+
+
+
+
+
+
+hello
+test
+hellodwh today is good day!
+handsom
+hello
+handsom
+hello
