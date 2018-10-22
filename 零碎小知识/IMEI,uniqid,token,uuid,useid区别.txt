@@ -1,0 +1,8 @@
+IMEI(International Mobile Equipment Identity): 国际移动设备识别码, 俗称“手机串号”、“手机串码”、“手机序列号”, 用于在GSM移动网络中识别每一部独立的手机，相当于手机的身份证号码;
+uuid(Universally Unique Identifier)	: 通用唯一识别码
+uniqid:通用唯一识别码 
+session:
+token:
+userid:用户在某家公司的唯一标识
+
+token原理：
