@@ -7,10 +7,9 @@ __author__ = 'dwh'
 
 # 2018/12/18 22:00
 
-# import tkinter as tk
-from tkinter import StringVar
+import tkinter as tk
 
-dwh = StringVar()
+dwh = tk.StringVar()
 # tex.set("hello")
 
 # flag = False
