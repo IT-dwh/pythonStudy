@@ -10,16 +10,3 @@ Ctrl+Y 回复撤销
 Ctrl+G 跳转到指定行，类似于vim的 ：setnum 后 50gg
 Ctrl+W 关闭当前打开的文件
 Ctrl+Shift+W 关闭打开的所有文件 等同于eclipse
-
-
-
-
-
-
-hello
-test
-hellodwh today is good day!
-handsom
-hello
-handsom
-hello

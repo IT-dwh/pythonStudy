@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-
 # 注意：
 # input 返回的是字符串
 # 必须通过int()讲字符串转换为整数
@@ -10,6 +7,6 @@ age = int(input("input your age:"))
 if age >= 18:
     print("adult")
 elif age >= 6:
-    print("tennager")
+    print("teenager")
 else:
     print("kid")

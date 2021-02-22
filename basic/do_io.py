@@ -1,8 +1,8 @@
-#!/usr/bin/env python
-# -*- encoding:utf-8 -*-
+with open("./do_class.py", encoding="utf-8") as f:
+    print(type(f))
+    while True:
+        content = f.readline()
+        if not content:
+            break
 
-
-with open("C:/Users/admin/Desktop/需求/王珊珊/订单每日价格信息.txt", encoding="utf-8") as f:
-	print(type(f))		
-	for line in f.readlines():
-		pass
+        print(content)
