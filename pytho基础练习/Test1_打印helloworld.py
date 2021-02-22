@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-
 """ Hello World实例 """
 
 __author__ = 'dwh'

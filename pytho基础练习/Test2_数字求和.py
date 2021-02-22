@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-
 """ 数字求和 """
 
 __author__ = 'dwh'

@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
-
 """ 文档注释 """
 
 __author__ = 'dwh'
@@ -11,7 +8,7 @@ a = None
 
 
 def test():
-    # global a
+    global a
     a = 100
     print(a)
 
