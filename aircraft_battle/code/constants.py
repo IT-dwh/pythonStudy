@@ -1,0 +1,9 @@
+import pygame
+
+SCREEN_RECT = pygame.Rect(0, 0, 480, 700)
+
+FRAME_PER_SEC = 60
+
+CREATE_ENEMY_PLANE = pygame.USEREVENT
+
+FIRE_BULLET = pygame.USEREVENT + 1
